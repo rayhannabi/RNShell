@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E853FB5720E4A38B00763BB8 /* RNShell.h in Headers */ = {isa = PBXBuildFile; fileRef = E853FB5520E4A38B00763BB8 /* RNShell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E853FB5E20E4A3AC00763BB8 /* RNShellResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853FB5D20E4A3AC00763BB8 /* RNShellResult.swift */; };
+		E853FB6020E4A43C00763BB8 /* RNShellResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853FB5F20E4A43C00763BB8 /* RNShellResultType.swift */; };
+		E853FB6220E4A65800763BB8 /* RNShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853FB6120E4A65800763BB8 /* RNShell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		E853FB5520E4A38B00763BB8 /* RNShell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNShell.h; sourceTree = "<group>"; };
 		E853FB5620E4A38B00763BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E853FB5D20E4A3AC00763BB8 /* RNShellResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNShellResult.swift; sourceTree = "<group>"; };
+		E853FB5F20E4A43C00763BB8 /* RNShellResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNShellResultType.swift; sourceTree = "<group>"; };
+		E853FB6120E4A65800763BB8 /* RNShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNShell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 				E853FB5520E4A38B00763BB8 /* RNShell.h */,
 				E853FB5620E4A38B00763BB8 /* Info.plist */,
 				E853FB5D20E4A3AC00763BB8 /* RNShellResult.swift */,
+				E853FB5F20E4A43C00763BB8 /* RNShellResultType.swift */,
+				E853FB6120E4A65800763BB8 /* RNShell.swift */,
 			);
 			path = RNShell;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E853FB5E20E4A3AC00763BB8 /* RNShellResult.swift in Sources */,
+				E853FB6220E4A65800763BB8 /* RNShell.swift in Sources */,
+				E853FB6020E4A43C00763BB8 /* RNShellResultType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
