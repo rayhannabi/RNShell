@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E853FB5720E4A38B00763BB8 /* RNShell.h in Headers */ = {isa = PBXBuildFile; fileRef = E853FB5520E4A38B00763BB8 /* RNShell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E853FB5E20E4A3AC00763BB8 /* RNShellResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853FB5D20E4A3AC00763BB8 /* RNShellResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E853FB5220E4A38B00763BB8 /* RNShell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNShell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E853FB5520E4A38B00763BB8 /* RNShell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNShell.h; sourceTree = "<group>"; };
 		E853FB5620E4A38B00763BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E853FB5D20E4A3AC00763BB8 /* RNShellResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNShellResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				E853FB5520E4A38B00763BB8 /* RNShell.h */,
 				E853FB5620E4A38B00763BB8 /* Info.plist */,
+				E853FB5D20E4A3AC00763BB8 /* RNShellResult.swift */,
 			);
 			path = RNShell;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					E853FB5120E4A38B00763BB8 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E853FB5E20E4A3AC00763BB8 /* RNShellResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,7 @@
 		E853FB5B20E4A38B00763BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanjanam.RNShell;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -284,6 +291,7 @@
 		E853FB5C20E4A38B00763BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
